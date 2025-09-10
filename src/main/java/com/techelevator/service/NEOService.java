@@ -10,7 +10,7 @@ public class NEOService {
 
     private final String API_URL="https://api.nasa.gov/neo/rest/v1/feed";
 
-    private final String API_KEY="BIQE95HkUcdKNznW01Bq8Hm7apPOXIMd8xtHl0uC";
+    private final String API_KEY=System.getenv("NASA_KEY");
 
     public NeoFeedResponse getNEOData(String date){
         String url = API_URL +
