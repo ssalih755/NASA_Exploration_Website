@@ -1,4 +1,4 @@
-package io.github.ssalih755;
+package io.github.ssalih755.cli;
 
 import java.time.LocalDate;
 import java.time.format.DateTimeParseException;

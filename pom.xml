@@ -49,7 +49,6 @@
             <groupId>org.springframework</groupId>
             <artifactId>spring-context</artifactId>
             <version>${spring.version}</version>
-            <scope>test</scope>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
@@ -66,6 +65,22 @@
 			<artifactId>jackson-databind</artifactId>
 			<version>2.15.4</version>
 		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot</artifactId>
+			<version>3.2.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-autoconfigure</artifactId>
+			<version>3.2.4</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-web</artifactId>
+			<version>3.2.4</version>
+		</dependency>
+
 
 	</dependencies>
 
@@ -75,8 +90,8 @@
 				<artifactId>maven-compiler-plugin</artifactId>
 				<version>3.1</version>
 				<configuration>
-					<source>${env.CURRICULUM_JAVA_VERSION}</source>
-					<target>${env.CURRICULUM_JAVA_VERSION}</target>
+					<source>23</source>
+					<target>23</target>
 				</configuration>
 			</plugin>
         <plugin>
@@ -84,7 +99,7 @@
             <artifactId>exec-maven-plugin</artifactId>
             <version>1.2.1</version>
             <configuration>
-                <mainClass>io.github.ssalih755.UserManagerCli</mainClass>
+                <mainClass>io.github.ssalih755.cli.UserManagerCli</mainClass>
             </configuration>
         </plugin>
     </plugins>
