@@ -1,0 +1,20 @@
+.about-container {
+  max-width: 900px;
+  margin: 3rem auto;
+  padding: 2rem 2.5rem;
+  background: linear-gradient(180deg, var(--accent-blue) 0%, var(--bg-900) 100%);
+  border-radius: 12px;
+  color: var(--muted);
+  font-family: var(--font-body);
+  line-height: 1.7;
+  box-shadow: var(--shadow-soft);
+}
+
+.about-container p {
+  margin-bottom: 1.2rem;
+}
+
+.about-container strong {
+  color: var(--accent-nasa);
+}
+

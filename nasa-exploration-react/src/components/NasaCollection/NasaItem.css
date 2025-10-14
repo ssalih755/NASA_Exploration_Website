@@ -1,0 +1,37 @@
+.nasa-item-card {
+  background: linear-gradient(145deg, #000814, #0b3d91);
+  color: #e0e6f0;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin: 1rem auto;
+  max-width: 350px;      /* max card width */
+  width: 90%;            /* allows dynamic shrinking on smaller screens */
+  box-shadow: 0 0 20px rgba(11, 61, 145, 0.6);
+  font-family: 'Roboto', sans-serif;
+  transition: transform 0.2s, box-shadow 0.3s;
+}
+
+.nasa-item-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 30px rgba(252, 61, 33, 0.7);
+}
+
+.nasa-item-title,
+.nasa-item-description,
+.nasa-item-id {
+  font-weight: bold;
+  margin-bottom: 0.8rem;
+}
+
+.nasa-item-image {
+  margin-top: 1rem;
+  width: 100%;           /* fills the card width */
+  height: auto;          /* maintains aspect ratio */
+  max-height: 300px;     /* optional: prevents extremely tall images */
+  object-fit: cover;     /* crops excess but keeps aspect ratio */
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+}
+.nasa-item-image:hover {
+  box-shadow: 0 0 25px rgba(252, 61, 33, 0.7);
+}

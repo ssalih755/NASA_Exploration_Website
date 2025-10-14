@@ -1,0 +1,36 @@
+.home-container {
+  text-align: center;
+  padding: 3rem 2rem;
+  color: var(--muted);
+  background: radial-gradient(ellipse at top, var(--accent-blue), var(--bg-900));
+  min-height: 100vh;
+  font-family: var(--font-heading);
+}
+
+.home-container h1 {
+  font-size: 3rem;
+  color: var(--muted);
+  text-shadow: 0 0 10px var(--accent-nasa);
+}
+
+.home-container h2 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  color: rgba(208, 216, 255, 0.9);
+}
+
+.home-container p {
+  font-size: 1.1rem;
+  margin: 1.5rem auto;
+  max-width: 600px;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.hero-image {
+  max-width: 90%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 0 25px rgba(255, 255, 255, 0.2);
+  margin-top: 2rem;
+}
