@@ -78,20 +78,32 @@ An interactive and visually appealing web experience powered by **React + Vite**
 #### 🏠 Home  
 Project overview and introduction.  
 
+<img width="1245" height="907" alt="image" src="https://github.com/user-attachments/assets/03e7b6a7-2151-4faa-8282-20fba05a983c" />
+
 #### 🌌 NASA Collection  
 Displays images and videos from NASA’s **Image and Video Library API**.  
 - Keyword-based search  
-- Responsive gallery layout  
+- Responsive gallery layout
+
+<img width="1168" height="907" alt="image" src="https://github.com/user-attachments/assets/6dfc715b-03b6-46bd-84a7-58706c4632e1" />
 
 #### ☄️ Near Earth Objects  
 Fetches and displays NEO data via the backend `/neoData` endpoint.  
 - Allows users to input a start date  
-- Defaults to today if none provided  
+- Defaults to today if none provided
+
+<img width="896" height="758" alt="image" src="https://github.com/user-attachments/assets/e672e163-443e-4116-abac-06fde2361439" />
+
+<img width="880" height="753" alt="image" src="https://github.com/user-attachments/assets/b75c3404-c5fe-4b33-96b5-4b5c5c866fe1" />
+
 
 #### 😂 Joke of the Day  
 Integrates with the **[icanhazdadjoke API](https://icanhazdadjoke.com/)** to display a random joke.  
 - Fetches automatically or on user action  
-- Styled with a fun, lighthearted feel  
+- Styled with a fun, lighthearted feel
+
+<img width="844" height="642" alt="image" src="https://github.com/user-attachments/assets/3d6a27b1-bdf5-4cc3-8e27-5f69d01cb90d" />
+
 
 ### 🧰 Tech Stack
 - ⚛️ React (Vite)
